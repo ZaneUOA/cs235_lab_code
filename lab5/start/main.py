@@ -8,3 +8,4 @@ Since we have defined all environment variables, we do NOT call `app.run()` and
 from app import create_app
 
 app = create_app()
+app.run()
